@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/ojisan-toybox/webpack-dot-env.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@sandessOjisan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ojisan-toybox/webpack-dot-env/issues"
   },
