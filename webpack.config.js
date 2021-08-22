@@ -18,8 +18,8 @@ module.exports = {
           "process.env": JSON.stringify(env),
         })
       : new webpack.DefinePlugin({
-          "process.env.HOGEHOGE": JSON.stringify(process.env.HOGE),
-          "process.env.FUGAFUGA": JSON.stringify(process.env.FUGA),
+          "process.env.HOGE": JSON.stringify(process.env.HOGE),
+          "process.env.FUGA": JSON.stringify(process.env.FUGA),
         }),
   ],
 };
