@@ -1,1 +1,1 @@
-(()=>{"use strict";const e=document.getElementById("root");if(null===e)throw new Error("not found el");console.log(e),e.innerText="hoge: hogeeee, fuga: fugaaa"})();
+(()=>{"use strict";throw new Error("環境変数がたりません。")})();
