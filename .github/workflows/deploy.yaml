@@ -17,7 +17,7 @@ jobs:
         run: |
           npm install
       - name: Build App
-        run: HOGE=hogeeee FUGA=fugaaa npm run build
+        run: HOGE=hogeeee npm run build
       - name: App Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
