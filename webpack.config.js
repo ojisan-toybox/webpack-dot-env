@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const dotenv = require("dotenv");
@@ -11,7 +12,7 @@ module.exports = {
     filename: "build.js",
   },
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({ template: "./src/index.html" }),
     env !== undefined
       ? new webpack.DefinePlugin({
           "process.env": JSON.stringify(env),

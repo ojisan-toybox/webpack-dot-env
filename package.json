@@ -2,7 +2,7 @@
   "name": "webpack-dot-env",
   "version": "1.0.0",
   "description": "local は .env から、CD は define plugin から環境変数を読み込む",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "webpack"
   },
